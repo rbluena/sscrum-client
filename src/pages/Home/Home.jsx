@@ -1,7 +1,7 @@
-import Hero from '../../components/Hero'
+import Hero from '@app-components/Hero';
 
 const Home = () => {
-  return <Hero />
-}
+  return <Hero />;
+};
 
-export default Hero
+export default Home;
