@@ -1,16 +1,16 @@
 const path = require("path");
 
 const plugins = [
-  ["styled-components", { ssr: true }],
+  /** Aliases to be used with storybook */
   [
     require.resolve("babel-plugin-module-resolver"),
     {
       root: [path.resolve(".")],
       extensions: ["(.js|.ts)", "(.tsx|jsx)"],
       alias: {
-        "@sscrum-pages": "./src/pages",
-        "@sscrum-components": "./src/components",
-        "@sscrum-utils": "./src/utils",
+        "@app-pages": "./src/pages",
+        "@app-components": "./src/components",
+        "@app-utils": "./src/utils",
       },
     },
   ],
