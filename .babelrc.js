@@ -7,6 +7,7 @@ const plugins = [
       root: [path.resolve('.')],
       extensions: ['(.js|.ts)', '(.tsx|jsx)'],
       alias: {
+        '@app-src': './src',
         '@app-pages': './src/pages',
         '@app-components': './src/components',
         '@app-utils': './src/utils',
